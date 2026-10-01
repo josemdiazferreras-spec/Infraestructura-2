@@ -1,6 +1,6 @@
 # Infraestructura 2 - VPN Site-to-Site FortiGate ↔ Cisco
 
-> 🎥 **VIDEO DEMOSTRATIVO (máximo 10 min):** [AGREGAR ENLACE DE YOUTUBE U ONEDRIVE AQUÍ]
+> 🎥 **VIDEO DEMOSTRATIVO (máximo 10 min):** [https://youtu.be/KCBEdEVx4Aw]
 
 **Matrícula:** 2025-0693  
 **Plataforma:** GNS3  
