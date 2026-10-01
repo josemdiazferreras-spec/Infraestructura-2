@@ -1,0 +1,9 @@
+network:
+  version: 2
+  ethernets:
+    ens3:
+      match:
+        macaddress: "0c:99:d8:b9:00:00"
+      dhcp4: true
+      dhcp6: true
+      set-name: "ens3"
