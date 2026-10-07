@@ -1,0 +1,27 @@
+
+enable
+configure terminal
+
+hostname SW-USUARIO
+!
+vlan 10
+ name USUARIOS
+!
+interface GigabitEthernet0/0
+ description ENLACE_HACIA_FGT-CLIENT
+ switchport mode access
+ switchport access vlan 10
+ no shutdown
+!
+interface GigabitEthernet0/1
+ description ENLACE_HACIA_CLIENTE
+ switchport mode access
+ switchport access vlan 10
+ spanning-tree portfast
+ no shutdown
+!
+interface range GigabitEthernet0/2-3
+ description PUERTOS_NO_UTILIZADOS
+ shutdown
+!
+end
